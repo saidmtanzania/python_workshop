@@ -7,7 +7,7 @@ age = 21
 name = "salim"
 first_name = "Mohammed"
 ## this hash means commenting "#"
-##rules of variable:
+## rules of variable:
         #they shouldnt start with number 
         #must start with a letter or the underscore character.
         #can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).

@@ -15,7 +15,7 @@ full_name = first_name + " " + last_name
 print("Your full name is: "+full_name)
 
 #measuring variable value length
-passwd = "123424211"
+passwd = "1234242112"
 passwd_lenght = str(len(passwd)) #str used to typecasting (data type changing)
 type(passwd_lenght)
 print("Your password length is: "+passwd_lenght)

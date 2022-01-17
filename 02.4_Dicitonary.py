@@ -70,7 +70,7 @@ bags = {
         'price': 500
     }],
     #declaring size
-    'size': 15,
+    'size': 25,
     #declaring color
     'color': 'blue'
 }

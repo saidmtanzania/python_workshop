@@ -6,7 +6,7 @@ float_number = 123.01
 
 #Performing math
 x = 80
-y = 42
+y = 25
 
 #addition of two numbers
 addition = x+y

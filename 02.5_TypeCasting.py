@@ -12,7 +12,7 @@ also string can not converted to integer it not possible but
 number in string can be converted to integer
 """
 #example
-temp = "23.671254"
+temp = "231.671254"
 name = "saidmtanzania" 
 phone = "125_957_837"#possible
 phone_converted = int(phone)

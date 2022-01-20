@@ -36,3 +36,15 @@ num = int(input("Enter your number: "))
 x=isEven(num)
 print(f"THis number {num} is even: {x}")
 #lambda expression - anonymous expression
+lam = lambda arg1 : arg1*2
+value = int(input("Enter number to lambda: "))
+print(f"The product od value: {value} times 2 is: {lam(value)}")
+
+#Function that calculate the length of a strings
+def string_len(string):
+    length = len(string)
+    return length
+#assigning a function to the input value for checking length of a string
+String = str(input("Enter your string: "))
+returned = string_len(String)
+print(f"Your String length is {returned}")

@@ -35,3 +35,4 @@ def isEven(num):
 num = int(input("Enter your number: "))
 x=isEven(num)
 print(f"THis number {num} is even: {x}")
+#lambda expression - anonymous expression

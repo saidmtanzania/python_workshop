@@ -1,3 +1,6 @@
+from audioop import add
+
+
 class Car:
     def __init__(self,name,model,miles,fuels,engine,door):
         self.name = name
@@ -19,4 +22,25 @@ print(f"Car name:{car.name} model year:{car.model} miles {car.miles} fuels {car.
 del car
 
 #INHERITANCE
-     class employe
+class Employee:
+    def __init__(self,name,age,dob,address,phone,job_description):
+        self.name = name
+        self.age = age
+        self.dob = dob
+        self.address = address
+        self.phone = phone
+        self.job_description = job_description
+    def get_salary(self):
+        print("salary printed")
+class Manager(Employee):
+    def __init__(self,name,age,dob,address,phone,job_description,department,employees):
+        super().__init__(name,age,dob,address,phone,job_description)
+        self.department = department
+        self.employees = employees
+    def add_Employees(self):
+        print("adding employees")
+mD = Manager("Daniel Mathew",23,"21-12-1997","Dodoma","0715 091 234","Managig Director","CSE","Said salim")
+print(mD.name) 
+print(mD.age)
+mD.get_salary()
+mD.add_Employees()

@@ -25,13 +25,28 @@ print("This is stick note system")
 char = input("If you want to write new note type w and r for reading and a for appends: ")
 if char == "w":
     print("Welcome to new note:")
-    file = input("enter your note name:")
-    if not any(file):
-        file = input("Please enter your note name:")
+    filex = str(input("enter your note name: "))
+    if not any(filex):
+        filex = str(input("Please enter your note name: "))
     else:
-        stuff = input("enter your note")
-        file = file.append(".txt")
-        write_file(file,stuff)
+        stuff = str(input("enter your note: "))
+        write_file(filex,stuff)
+elif char == "r":
+    rnote = str(input("enter your note name to read: "))
+    if any(rnote):
+        read_file(rnote)
+    else:
+        print("Your note doesnt exist")
+elif char == "a":
+    fileapp = str(input("enter note name to append: "))
+    if not any(fileapp):
+        fileapp = str(input("enter note name to append: "))
+    else:
+        stuff = str(input("enter your note: "))
+        append_file(fileapp,stuff)
+
+
+
 
 
 
